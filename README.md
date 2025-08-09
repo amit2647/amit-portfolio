@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-**[Visit Portfolio →]((https://amit2647.github.io/amit-portfolio/))**
+**[Visit Portfolio →](https://amit2647.github.io/amit-portfolio/)**
 
 ## Preview
 
