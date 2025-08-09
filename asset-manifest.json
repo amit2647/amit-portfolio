@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amit-portfolio/static/css/main.246c3497.css",
+    "main.js": "/amit-portfolio/static/js/main.fc2b2725.js",
+    "static/js/453.438d9e50.chunk.js": "/amit-portfolio/static/js/453.438d9e50.chunk.js",
+    "index.html": "/amit-portfolio/index.html",
+    "main.246c3497.css.map": "/amit-portfolio/static/css/main.246c3497.css.map",
+    "main.fc2b2725.js.map": "/amit-portfolio/static/js/main.fc2b2725.js.map",
+    "453.438d9e50.chunk.js.map": "/amit-portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.246c3497.css",
+    "static/js/main.fc2b2725.js"
+  ]
+}
