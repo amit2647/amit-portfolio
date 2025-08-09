@@ -6,10 +6,6 @@
 
 **[Visit Portfolio →](https://amit2647.github.io/amit-portfolio/)**
 
-## Preview
-
-![Portfolio Preview](https://via.placeholder.com/800x400/1f2937/f59e0b?text=Portfolio+Preview)
-
 ## Features
 
 ### **Modern Design**
