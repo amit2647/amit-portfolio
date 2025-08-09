@@ -106,12 +106,6 @@ npm run build
 yarn build
 ```
 
-### **Content Updates**
-- **Personal Info**: Update `src/data/personal.ts`
-- **Projects**: Modify `src/data/projects.ts`
-- **Services**: Edit `src/data/services.ts`
-- **Achievements**: Update `src/data/achievements.ts`
-
 ## Development Scripts
 
 ```bash
@@ -120,18 +114,6 @@ npm run dev
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
-
-# Run type checking
-npm run type-check
-
-# Run linting
-npm run lint
-
-# Format code
-npm run format
 ```
 
 ## License
