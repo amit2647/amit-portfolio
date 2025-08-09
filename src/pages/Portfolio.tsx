@@ -1,5 +1,6 @@
 import React, { useState, useEffect, JSX } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code, Palette, Smartphone, ArrowRight, Menu, X, GraduationCap, Shield } from 'lucide-react';
+import profilePic from '../assets/profile.jpg';
 
 interface Project {
     name: string;
@@ -269,7 +270,7 @@ const Portfolio = () => {
                     <div className="relative">
                         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-2xl blur-2xl transform rotate-6" />
                         <img
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+                            src={profilePic}
                             alt="Amit Mahorkar"
                             className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-2xl object-cover shadow-2xl border-2 border-gray-700/50"
                         />
