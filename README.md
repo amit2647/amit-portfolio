@@ -1,46 +1,152 @@
-# Getting Started with Create React App
+# Amit Mahorkar - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A interactive portfolio showcasing my journey as a Computer Science graduate specializing in AI, cybersecurity, and full-stack development.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+**[Visit Portfolio →](https://your-portfolio-link.com)**
 
-### `npm start`
+## Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Portfolio Preview](https://via.placeholder.com/800x400/1f2937/f59e0b?text=Portfolio+Preview)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+### **Modern Design**
+- **Glassmorphism UI** with backdrop blur effects
+- **Interactive mouse-following highlights** with dynamic animations
+- **Gradient overlays** and smooth transitions
+- **Responsive design** optimized for all devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Interactive Elements**
+- **Smooth animations** with Tailwind CSS
+- **Project filtering** by category
+- **Hover effects** and micro-interactions
+- **Mobile-friendly navigation** with hamburger menu
 
-### `npm run build`
+### **Sections**
+- **Hero Section** - Introduction and social links
+- **Stats Dashboard** - Key achievements and metrics
+- **Expertise Showcase** - Technical skills and specializations
+- **Academic Milestones** - Education, certifications, and achievements
+- **Featured Projects** - Portfolio with live demos and source code
+- **Contact** - Multiple ways to get in touch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| **React** | Frontend Framework | 18.2.0 |
+| **TypeScript** | Type Safety | 5.0+ |
+| **Tailwind CSS** | Styling & Animation | 3.3+ |
+| **Lucide React** | Modern Icons | Latest |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+portfolio/
+├── public
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── index.tsx
+│   ├── pages
+│   │   └── Portfolio.tsx
+│   ├── react-app-env.d.ts
+│   ├── reportWebVitals.ts
+│   └── setupTests.ts
+├── package.json
+├── package-lock.json
+├── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- **Node.js** (v18 or higher)
+- **npm** or **yarn**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amit2647/portfolio.git
+   cd portfolio
+   ```
 
-## Learn More
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### **Content Updates**
+- **Personal Info**: Update `src/data/personal.ts`
+- **Projects**: Modify `src/data/projects.ts`
+- **Services**: Edit `src/data/services.ts`
+- **Achievements**: Update `src/data/achievements.ts`
+
+## Development Scripts
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Run type checking
+npm run type-check
+
+# Run linting
+npm run lint
+
+# Format code
+npm run format
+```
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+While this is a personal portfolio, suggestions and improvements are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+**Made with by Amit Mahorkar | © 2024**
+---
